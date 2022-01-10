@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,600;1,100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.banner{
+    background-image: url(images/bg-pattern-desktop.svg);
+    display: flex;
+    width: 75vw;
+    justify-content: center;
+} 
+
+.banner__info{
+    font-family: 'Josefin Sans', sans-serif; 
+}
+
+.banner__logo{
+    padding:7% 0 0 5%;
+}
+
+.banner__title{
+    padding: 15% 30% 5% 5%;
+    font-size: 5rem;
+    text-transform: uppercase;
+    line-height: 4.5rem;
+    letter-spacing: 1.5rem;
+    font-weight: 400;    
+}
+
+.banner__title-thin{
+    color:hsl(0, 36%, 70%);
+    font-weight: 100;
+    padding:0;
+}
+
+.banner__text{
+    color:hsl(0, 36%, 70%);
+    padding:0 25% 5% 5%;
+    word-spacing: 0.3rem;
+    letter-spacing: 1px;
+    line-height: 1.5rem;
+}
+
+.email__form{
+    display:inline-block;
+    margin-left: 5%;
+    border: 1px solid hsl(0, 53%, 78%);
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 2rem;
+}
+
+.email__text{
+    border: none;
+    width: 100%;
+    background-color: white;
+    padding: 3%;
+    border-radius: 2rem;   
+}
+
+.email__text:focus{
+    outline: none;
+    color: hsl(0, 36%, 70%);
+}
+
+.email__submit{
+    border: none;
+    padding: 3%;
+    background-color: hsl(0, 53%, 78%);
+    color: white;
+    border-radius: 2rem;
+    width: 20%;
+    box-shadow: -3px 7px 20px hsl(0, 53%, 78%);
+}
+
+@media(max-width:1500px){
+    .banner{
+        width: 90%;
+    }
+}
+
+@media(max-width:1200px){
+    .banner{
+        width: 100%;  
+    }
+}
+
+
+
