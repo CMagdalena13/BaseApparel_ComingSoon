@@ -1,0 +1,67 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media only screen and (max-width: 1024px) {
+    .banner{
+        display: none;
+        
+       
+    }
+    .banner__logo--mobile{
+        padding:0 0 0 5%;
+    }
+    .banner--mobile{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        padding-top:0;
+    }
+    .banner__images--desktop{
+        display: none;
+    }
+    .banner__images--mobile{
+        display: block;
+        width: 100%;
+        padding-top: 3vh;
+        padding-bottom: 3vh;
+    }
+    .banner--mobile{
+        width: 100%;
+    }
+    .banner__title--mobile{
+        font-size: 2rem;
+        line-height: 2rem;
+        padding:0 ;
+        text-align: center;
+    }
+
+    .banner__title-thin--mobile{
+        line-height: 2rem;
+        font-size: 2rem;
+    }
+
+    .banner__text--mobile{
+        padding:0;
+        padding-top: 3vh;
+        text-align: center;
+    }
+
+    .banner__info--mobile{
+        padding: 0 7% 0 7%;
+    }
+
+    .email__form--mobile{
+        width: 100%;
+        margin:0 ;
+        margin-top: 3vh;
+        text-align: center;
+    }
+
+   
+
+    
+    
+}
